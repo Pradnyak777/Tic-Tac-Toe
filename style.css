@@ -36,7 +36,7 @@ body{
     color: brown;
     background-color: azure;
 }
-#reset-game{
+#reset-btn{
     padding: 1rem;
     font-size:1.25rem ;
     background-color: rgb(61, 54, 46);
@@ -44,7 +44,7 @@ body{
     border-radius: 1rem;
     border: none;
 }
- #new-game{
+ #new-btn{
 
     padding: 1rem;
     font-size:1.25rem ;
@@ -59,8 +59,14 @@ body{
     color: aliceblue;
     font-size: 5vmin;
 }
- .msg-container{
-    height:13vmin ;
+ .msgcontainer{
+    height:100vmin ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
 }
 
 .hide{
